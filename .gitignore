@@ -24,3 +24,4 @@ jhton
 src/Judy1/*.c
 src/JudyL/*.c
 src/Judy*/Judy*TablesGen
+doc/J*
