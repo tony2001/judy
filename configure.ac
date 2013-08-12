@@ -1,5 +1,6 @@
 AC_PREREQ(2.57)
 AC_INIT(Judy, 1.0.5, dougbaskins@yahoo.com)
+AC_CONFIG_MACRO_DIR([m4])
 
 AM_MAINTAINER_MODE
 
@@ -241,7 +242,7 @@ WARN_CFLAGS=""
 build_warnings="-W -Wall -Wstrict-prototypes -Wmissing-prototypes"
 AC_ARG_ENABLE([build-warnings],
 	      [  --enable-build-warnings    Enable build-time compiler warnings for gcc])
-if test x"$build_warnings" = xyes; then
+if test x"$enableval" = xyes; then
     if test x"$GCC" = xyes; then
 	WARN_CFLAGS="${build_warnings}"
     fi

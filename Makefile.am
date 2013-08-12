@@ -2,6 +2,8 @@
 # GNU Maintainer's Manual.
 AUTOMAKE_OPTIONS = foreign
 
+ACLOCAL_AMFLAGS = -I m4
+
 # We need to build the following subdirectories in this order.  Note that
 # we put a Makefile.am in every subdirectory, even if there's nothing to
 # compile, so that we can support 'make dist' gracefully.
