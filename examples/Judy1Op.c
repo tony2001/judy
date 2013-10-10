@@ -86,11 +86,13 @@ Judy1Op(PPvoid_t PPDest, Pvoid_t PSet1, Pvoid_t PSet2,
             {
                 Index1 = Index2;
                 Judy_rv = Judy1First(PSet1, &Index1, PJError);
+                Judy_rv++;
             }
             else if (Index1 > Index2)
             {
                 Index2 = Index1;
                 Judy_rv = Judy1First(PSet2, &Index2, PJError);
+                Judy_rv++;
             }
             else
             {
