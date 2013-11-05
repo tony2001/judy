@@ -21,67 +21,67 @@ Judy1Tables.c: Judy1TablesGen.c
 	$(CC) $(INCLUDES) $(AM_CFLAGS) @CFLAGS@ -o Judy1TablesGen Judy1TablesGen.c; ./Judy1TablesGen
 
 Judy1ByCount.c: $(top_srcdir)/src/JudyCommon/JudyByCount.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyByCount.c      		Judy1ByCount.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyByCount.c      		Judy1ByCount.c
 
 Judy1Cascade.c: $(top_srcdir)/src/JudyCommon/JudyCascade.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyCascade.c      		Judy1Cascade.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyCascade.c      		Judy1Cascade.c
 
 Judy1Count.c: $(top_srcdir)/src/JudyCommon/JudyCount.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyCount.c        		Judy1Count.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyCount.c        		Judy1Count.c
 
 Judy1CreateBranch.c: $(top_srcdir)/src/JudyCommon/JudyCreateBranch.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyCreateBranch.c 		Judy1CreateBranch.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyCreateBranch.c 		Judy1CreateBranch.c
 
 Judy1Decascade.c: $(top_srcdir)/src/JudyCommon/JudyDecascade.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyDecascade.c    		Judy1Decascade.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyDecascade.c    		Judy1Decascade.c
 
 Judy1Unset.c: $(top_srcdir)/src/JudyCommon/JudyDel.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyDel.c          		Judy1Unset.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyDel.c          		Judy1Unset.c
 
 Judy1First.c: $(top_srcdir)/src/JudyCommon/JudyFirst.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyFirst.c        		Judy1First.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyFirst.c        		Judy1First.c
 
 Judy1FreeArray.c: $(top_srcdir)/src/JudyCommon/JudyFreeArray.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyFreeArray.c    		Judy1FreeArray.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyFreeArray.c    		Judy1FreeArray.c
 
 Judy1Test.c: $(top_srcdir)/src/JudyCommon/JudyGet.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyGet.c          		Judy1Test.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyGet.c          		Judy1Test.c
 
 j__udy1Test.c: $(top_srcdir)/src/JudyCommon/JudyGet.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyGet.c          		j__udy1Test.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyGet.c          		j__udy1Test.c
 
 Judy1SetArray.c: $(top_srcdir)/src/JudyCommon/JudyInsArray.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyInsArray.c     		Judy1SetArray.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyInsArray.c     		Judy1SetArray.c
 
 Judy1Set.c: $(top_srcdir)/src/JudyCommon/JudyIns.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyIns.c          		Judy1Set.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyIns.c          		Judy1Set.c
 
 Judy1InsertBranch.c: $(top_srcdir)/src/JudyCommon/JudyInsertBranch.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyInsertBranch.c 		Judy1InsertBranch.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyInsertBranch.c 		Judy1InsertBranch.c
 
 Judy1MallocIF.c: $(top_srcdir)/src/JudyCommon/JudyMallocIF.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyMallocIF.c     		Judy1MallocIF.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyMallocIF.c     		Judy1MallocIF.c
 
 Judy1MemActive.c: $(top_srcdir)/src/JudyCommon/JudyMemActive.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyMemActive.c    		Judy1MemActive.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyMemActive.c    		Judy1MemActive.c
 
 Judy1MemUsed.c: $(top_srcdir)/src/JudyCommon/JudyMemUsed.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyMemUsed.c      		Judy1MemUsed.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyMemUsed.c      		Judy1MemUsed.c
 
 Judy1Next.c: $(top_srcdir)/src/JudyCommon/JudyPrevNext.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyPrevNext.c     		Judy1Next.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyPrevNext.c     		Judy1Next.c
 
 Judy1Prev.c: $(top_srcdir)/src/JudyCommon/JudyPrevNext.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyPrevNext.c     		Judy1Prev.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyPrevNext.c     		Judy1Prev.c
 
 Judy1NextEmpty.c: $(top_srcdir)/src/JudyCommon/JudyPrevNextEmpty.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyPrevNextEmpty.c		Judy1NextEmpty.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyPrevNextEmpty.c		Judy1NextEmpty.c
 
 Judy1PrevEmpty.c: $(top_srcdir)/src/JudyCommon/JudyPrevNextEmpty.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyPrevNextEmpty.c		Judy1PrevEmpty.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyPrevNextEmpty.c		Judy1PrevEmpty.c
 
 Judy1TablesGen.c: $(top_srcdir)/src/JudyCommon/JudyTables.c
-	 ln -s $(top_srcdir)/src/JudyCommon/JudyTables.c	        Judy1TablesGen.c
+	cp -f $(top_srcdir)/src/JudyCommon/JudyTables.c	        Judy1TablesGen.c
 
 DISTCLEANFILES = .deps Makefile
 
